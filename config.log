@@ -1,0 +1,398 @@
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wall ... 
+.sconf_temp/conftest_0.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_0.o
+  LD   .sconf_temp/conftest_0
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wextra ... 
+.sconf_temp/conftest_1.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_1.o
+.sconf_temp/conftest_1.c: In function 'main':
+.sconf_temp/conftest_1.c:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+              ^
+.sconf_temp/conftest_1.c:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+                           ^
+  LD   .sconf_temp/conftest_1
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -nostdinc ... 
+.sconf_temp/conftest_2.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_2.o
+.sconf_temp/conftest_2.c: In function 'main':
+.sconf_temp/conftest_2.c:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+              ^
+.sconf_temp/conftest_2.c:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+                           ^
+  LD   .sconf_temp/conftest_2
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-stack-protector ... 
+.sconf_temp/conftest_3.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_3.o
+.sconf_temp/conftest_3.c: In function 'main':
+.sconf_temp/conftest_3.c:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+              ^
+.sconf_temp/conftest_3.c:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+                           ^
+  LD   .sconf_temp/conftest_3
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-builtin ... 
+.sconf_temp/conftest_4.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_4.o
+.sconf_temp/conftest_4.c: In function 'main':
+.sconf_temp/conftest_4.c:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+              ^
+.sconf_temp/conftest_4.c:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+                           ^
+  LD   .sconf_temp/conftest_4
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-pie ... 
+.sconf_temp/conftest_5.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_5.o
+.sconf_temp/conftest_5.c: In function 'main':
+.sconf_temp/conftest_5.c:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+              ^
+.sconf_temp/conftest_5.c:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+                           ^
+  LD   .sconf_temp/conftest_5
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-write-strings ... 
+.sconf_temp/conftest_6.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_6.o
+.sconf_temp/conftest_6.c: In function 'main':
+.sconf_temp/conftest_6.c:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+              ^
+.sconf_temp/conftest_6.c:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+                           ^
+  LD   .sconf_temp/conftest_6
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-unused-parameter ... 
+.sconf_temp/conftest_7.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_7.o
+  LD   .sconf_temp/conftest_7
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-ignored-qualifiers ... 
+.sconf_temp/conftest_8.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_8.o
+  LD   .sconf_temp/conftest_8
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-pragmas ... 
+.sconf_temp/conftest_9.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_9.o
+  LD   .sconf_temp/conftest_9
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-cast-function-type ... 
+.sconf_temp/conftest_10.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_10.o
+  LD   .sconf_temp/conftest_10
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-format-truncation ... 
+.sconf_temp/conftest_11.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_11.o
+  LD   .sconf_temp/conftest_11
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -g3 ... 
+.sconf_temp/conftest_12.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_12.o
+  LD   .sconf_temp/conftest_12
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -O0 ... 
+.sconf_temp/conftest_13.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_13.o
+  LD   .sconf_temp/conftest_13
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -D__ASSERT__ ... 
+.sconf_temp/conftest_14.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CC   .sconf_temp/conftest_14.o
+  LD   .sconf_temp/conftest_14
+/usr/bin/ld: warning: cannot find entry symbol _entry; defaulting to 0000000080000000
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 107:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-rtti ... 
+.sconf_temp/conftest_15.cpp <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CXX  .sconf_temp/conftest_15.o
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 107:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-exceptions ... 
+.sconf_temp/conftest_16.cpp <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CXX  .sconf_temp/conftest_16.o
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 107:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -fno-sized-deallocation ... 
+.sconf_temp/conftest_17.cpp <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CXX  .sconf_temp/conftest_17.o
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 107:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-unknown-pragmas ... 
+.sconf_temp/conftest_18.cpp <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CXX  .sconf_temp/conftest_18.o
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 107:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -std=c++03 ... 
+.sconf_temp/conftest_19.cpp <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CXX  .sconf_temp/conftest_19.o
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 107:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -ffunction-sections ... 
+.sconf_temp/conftest_20.cpp <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  CXX  .sconf_temp/conftest_20.o
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wall ... 
+.sconf_temp/conftest_21.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_21.o
+  HOSTLD   .sconf_temp/conftest_21
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wextra ... 
+.sconf_temp/conftest_22.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_22.o
+.sconf_temp/conftest_22.c: In function 'main':
+.sconf_temp/conftest_22.c:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+              ^
+.sconf_temp/conftest_22.c:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+ int main(int argc, char **argv){    return 0;}
+                           ^
+  HOSTLD   .sconf_temp/conftest_22
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-unused-parameter ... 
+.sconf_temp/conftest_23.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_23.o
+  HOSTLD   .sconf_temp/conftest_23
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-ignored-qualifiers ... 
+.sconf_temp/conftest_24.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_24.o
+  HOSTLD   .sconf_temp/conftest_24
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-format-truncation ... 
+.sconf_temp/conftest_25.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_25.o
+  HOSTLD   .sconf_temp/conftest_25
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -Wno-pragmas ... 
+.sconf_temp/conftest_26.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_26.o
+  HOSTLD   .sconf_temp/conftest_26
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -g3 ... 
+.sconf_temp/conftest_27.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_27.o
+  HOSTLD   .sconf_temp/conftest_27
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -O0 ... 
+.sconf_temp/conftest_28.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_28.o
+  HOSTLD   .sconf_temp/conftest_28
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 57:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -D__ASSERT__ ... 
+.sconf_temp/conftest_29.c <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCC   .sconf_temp/conftest_29.o
+  HOSTLD   .sconf_temp/conftest_29
+scons: Configure: yes
+
+
+file ./support/scons/autoconf.py,line 107:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for -std=c++03 ... 
+.sconf_temp/conftest_30.cpp <-
+  |int main(int argc, char **argv){    return 0;}
+  |
+  HOSTCXX  .sconf_temp/conftest_30.o
+scons: Configure: yes
+
+
